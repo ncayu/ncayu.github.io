@@ -1,0 +1,117 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>费曼学习法 | ncayu-南城阿宇</title><meta name="description" content="title：费曼学习法其实大部分人的智力水平相差不大，但是学习力却大相径庭，造成这样差异的更多地是我们的学习方法、学习习惯等可控因素。 什么是费曼学习法费曼学习法的灵感源于诺贝尔物理奖获得者理查德•费曼（Richard Feynman），运用费曼技巧,你只需花上20分钟就能深入理解知识点,而且记忆深刻,难以遗忘。知识有两种类型，我们绝大多数人关注的都是错误的那类。第一类知识注重了解某个事物的名称"><meta name="author" content="ncayu"><meta name="copyright" content="ncayu"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/touxiang666.jpg"><link rel="canonical" href="https://ncayu.github.io/2020/07/21/%E8%B4%B9%E6%9B%BC%E5%AD%A6%E4%B9%A0%E6%B3%95/"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta property="og:type" content="article"><meta property="og:title" content="费曼学习法"><meta property="og:url" content="https://ncayu.github.io/2020/07/21/%E8%B4%B9%E6%9B%BC%E5%AD%A6%E4%B9%A0%E6%B3%95/"><meta property="og:site_name" content="ncayu-南城阿宇"><meta property="og:description" content="title：费曼学习法其实大部分人的智力水平相差不大，但是学习力却大相径庭，造成这样差异的更多地是我们的学习方法、学习习惯等可控因素。 什么是费曼学习法费曼学习法的灵感源于诺贝尔物理奖获得者理查德•费曼（Richard Feynman），运用费曼技巧,你只需花上20分钟就能深入理解知识点,而且记忆深刻,难以遗忘。知识有两种类型，我们绝大多数人关注的都是错误的那类。第一类知识注重了解某个事物的名称"><meta property="og:image" content="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg"><meta property="article:published_time" content="2020-07-21T04:24:52.352Z"><meta property="article:modified_time" content="2020-07-21T04:24:52.352Z"><meta name="twitter:card" content="summary"><script>var activateDarkMode = function () {
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#000')
+  }
+}
+var activateLightMode = function () {
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#fff')
+  }
+}
+
+var getCookies = function (name) {
+  const value = `; ${document.cookie}`
+  const parts = value.split(`; ${name}=`)
+  if (parts.length === 2) return parts.pop().split(';').shift()
+}
+
+var autoChangeMode = 'false'
+var t = getCookies('theme')
+if (autoChangeMode === '1') {
+  var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+  var isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+  var isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined) {
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport) {
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour <= 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+      if (Cookies.get('theme') === undefined) {
+        e.matches ? activateDarkMode() : activateLightMode()
+      }
+    })
+  } else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else if (autoChangeMode === '2') {
+  now = new Date()
+  hour = now.getHours()
+  isNight = hour <= 6 || hour >= 18
+  if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else {
+  if (t === 'dark') activateDarkMode()
+  else if (t === 'light') activateLightMode()
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="next" title="搭建个人博客" href="https://ncayu.github.io/2020/07/21/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: false,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: undefined,
+  justifiedGallery: {
+    js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+    css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+  },
+  baiduPush: false,
+  highlightCopy: true,
+  highlightLang: true,
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isanchor: false    
+}</script><script>var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isSidebar: true,
+  postUpdate: '2020-07-21 12:24:52'
+}</script><noscript><style>
+#nav {
+  opacity: 1
+}
+.justified-gallery img{
+  opacity: 1
+}
+</style></noscript><meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="/atom.xml" title="ncayu-南城阿宇" type="application/atom+xml">
+</head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/touxiang666.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">4</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down menus-expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><i class="fas fa-arrow-right on" id="toggle-sidebar"></i><div id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#title：费曼学习法"><span class="toc-number">1.</span> <span class="toc-text">title：费曼学习法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#什么是费曼学习法"><span class="toc-number">2.</span> <span class="toc-text">什么是费曼学习法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#费曼学习法的提出者"><span class="toc-number">3.</span> <span class="toc-text">费曼学习法的提出者</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#该技巧主要包含四步："><span class="toc-number">4.</span> <span class="toc-text">该技巧主要包含四步：</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#第一步：把它教给一个小孩子。"><span class="toc-number">4.1.</span> <span class="toc-text">第一步：把它教给一个小孩子。</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#第二步：回顾。"><span class="toc-number">4.2.</span> <span class="toc-text">第二步：回顾。</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#第三步：将语言条理化，简化。"><span class="toc-number">4.3.</span> <span class="toc-text">第三步：将语言条理化，简化。</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#第四步（可选）：传授"><span class="toc-number">4.4.</span> <span class="toc-text">第四步（可选）：传授</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#写在最后"><span class="toc-number">5.</span> <span class="toc-text">写在最后</span></a></li></ol></div></div></div><div id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg)"><nav id="nav"><span class="pull-left" id="blog_name"><a class="blog_title" id="site-name" href="/">ncayu-南城阿宇</a></span><span class="pull-right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down menus-expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="post-info"><div id="post-title"><div class="posttitle">费曼学习法</div></div><div id="post-meta"><div class="meta-firstline"><time class="post-meta__date"><span class="post-meta__date-created" title="发表于 2020-07-21 12:24:52"><i class="far fa-calendar-alt fa-fw"></i> 发表于 2020-07-21</span><span class="post-meta__separator">|</span><span class="post-meta__date-updated" title="更新于 2020-07-21 12:24:52"><i class="fas fa-history fa-fw"></i> 更新于 2020-07-21</span></time></div><div class="meta-secondline"> </div><div class="meta-thirdline"><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta__icon"></i><span>阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><hr>
+<h2 id="title：费曼学习法"><a href="#title：费曼学习法" class="headerlink" title="title：费曼学习法"></a>title：费曼学习法</h2><p>其实大部分人的智力水平相差不大，但是学习力却大相径庭，造成这样差异的更多地是我们的学习方法、学习习惯等可控因素。</p>
+<h2 id="什么是费曼学习法"><a href="#什么是费曼学习法" class="headerlink" title="什么是费曼学习法"></a>什么是费曼学习法</h2><p>费曼学习法的灵感源于诺贝尔物理奖获得者理查德•费曼（Richard Feynman），运用费曼技巧,你只需花上20分钟就能深入理解知识点,而且记忆深刻,难以遗忘。知识有两种类型，我们绝大多数人关注的都是错误的那类。第一类知识注重了解某个事物的名称。第二类知识注重了解某件事物。这可不是一回事儿。著名的诺贝尔物理学家理查德·费曼（Richard Feynman）能够理解这二者间的差别，这也是他成功最重要的原因之一。事实上，他创造了一种学习方法，确保他会比别人对事物了解的更透彻。<br>费曼学习法可以简化为四个单词：</p>
+<p><strong>Concept</strong> （概念）、<strong>Teach **（教给别人）、</strong>Review** （评价）、<strong>Simplify</strong> （简化）。</p>
+<h2 id="费曼学习法的提出者"><a href="#费曼学习法的提出者" class="headerlink" title="费曼学习法的提出者"></a>费曼学习法的提出者</h2><p>理查德·费曼，1965年获得诺贝尔物理学奖，美籍犹太人。理论物理学家，量子电动力学创始人之一，纳米技术之父。因其对量子电动物理学的贡献获得诺贝尔物理学奖。他被认为是爱因斯坦之后最睿智的理论物理学家，也是第一位提出纳米概念的人。</p>
+<h2 id="该技巧主要包含四步："><a href="#该技巧主要包含四步：" class="headerlink" title="该技巧主要包含四步："></a>该技巧主要包含四步：</h2><h3 id="第一步：把它教给一个小孩子。"><a href="#第一步：把它教给一个小孩子。" class="headerlink" title="第一步：把它教给一个小孩子。"></a>第一步：把它教给一个小孩子。</h3><p>拿出一张白纸，在上方写下你想要学习的主题。想一下，如果你要把它教给一个孩子，你会讲哪些，并写下来。这里你的教授对象不是你自己那些聪明的成年朋友，而是一个8岁的孩子，他的词汇量和注意力刚好能够理解基本概念和关系。<br>许多人会倾向于使用复杂的词汇和行话来掩盖他们不明白的东西。问题是我们只在糊弄自己，因为我们不知道自己也不明白。另外，使用行话会隐藏周围人对我们的误解。<br>当你自始至终都用孩子可以理解的简单的语言写出一个想法（提示：只用最常见的单词），那么你便迫使自己在更深层次上理解了该概念，并简化了观点之间的关系和联系。如果你努力，就会清楚地知道自己在哪里还有不明白的地方。这种紧张状态很好——预示着学习的机会到来了。</p>
+<h3 id="第二步：回顾。"><a href="#第二步：回顾。" class="headerlink" title="第二步：回顾。"></a>第二步：回顾。</h3><p>在第一步中，你不可避免地会卡壳，忘记重要的点，不能解释，或者说不能将重要的概念联系起来。<br>这一反馈相当宝贵，因为你已经发现了自己知识的边缘。懂得自己能力的界限也是一种能力，你刚刚就确定了一个！<br>这是学习开始的地方。现在你知道自己在哪里卡住了，那么就回到原始材料，重新学习，直到你可以用基本的术语解释这一概念。<br>认定自己知识的界限，会限制你可能犯的错误，并且在应用该知识时，可以增加成功的几率。</p>
+<h3 id="第三步：将语言条理化，简化。"><a href="#第三步：将语言条理化，简化。" class="headerlink" title="第三步：将语言条理化，简化。"></a>第三步：将语言条理化，简化。</h3><p>现在你手上有一套自己手写笔记，检查一下确保自己没有从原材料中借用任何行话。将这些笔记用简单的语言组织成一个流畅的故事。<br>将这个故事大声读出来，如果这些解释不够简单，或者听起来比较混乱，很好，这意味着你想要理解该领域，还需要做一些工作。</p>
+<h3 id="第四步（可选）：传授"><a href="#第四步（可选）：传授" class="headerlink" title="第四步（可选）：传授"></a>第四步（可选）：传授</h3><p>如果你真的想确保你的理解没什么问题，就把它教给另一个人（理想状态下，这个人应该对这个话题知之甚少，或者就找个 8 岁的孩子）。检测知识最终的途径是你能有能力把它传播给另一个人。<br>这不仅是学习的妙方，还是窥探不同思维方式的窗口，它让你将想法撕开揉碎，从头重组。这种学习方法会让你对观点和概念有更为深入的理解。重要的是，以这种方式解决问题，你可以在别人不知道他们自己在说什么的情况下，理解这个问题。<br>费曼的方法直观地认为智力是一个增长的过程，这与 Carol Dweck 的研究非常吻合，Carol Dweck 精确地描述了停滞型思维（fixed mindset）和成长型思维（growth mindset）之间的区别。</p>
+<h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>简单来说费曼学习法就是“以教为学”的学习方式，能够帮助你提高知识的吸收率，真正理解并学会运用知识。这个学习方法其实很简单，就是验证你是否真正掌握一个知识，看你能否用直白浅显的语言把复杂深奥的问题和知识讲清楚。</p>
+<p><img src= "/img/loading.gif" data-src="C:%5CUsers%5C%E5%8D%97%E5%9F%8E%E9%98%BF%E5%AE%87%5CDesktop%5C%E8%B4%B9%E6%9B%BC%E5%AD%A6%E4%B9%A0%E6%B3%95.png" alt="费曼学习法"></p>
+<p>学习不整理，等于骗自己。</p>
+<p>整理不实践，全都是白干。</p>
+<p>实践不规划，纯粹瞎捣乱。</p>
+<p>规划不自律，就是找抑郁。</p>
+<p>自律出成果，维持好生活。</p>
+</div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">ncayu</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://ncayu.github.io/2020/07/21/%E8%B4%B9%E6%9B%BC%E5%AD%A6%E4%B9%A0%E6%B3%95/">https://ncayu.github.io/2020/07/21/%E8%B4%B9%E6%9B%BC%E5%AD%A6%E4%B9%A0%E6%B3%95/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://ncayu.github.io" target="_blank">ncayu-南城阿宇</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="/img/touxiang666.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"/><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2020/07/21/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"><img class="next-cover" data-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">搭建个人博客</div></div></a></div></nav></article></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2020 By ncayu</div><div class="framework-info"><span>驱动 </span><a href="https://hexo.io" target="_blank" rel="noopener"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 </span><a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener"><span>Butterfly</span></a></div></div></footer></div><section id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="font_plus" type="button" title="放大字体"><i class="fas fa-plus"></i></button><button id="font_minus" type="button" title="缩小字体"><i class="fas fa-minus"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></section><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script id="ribbon_piao" mobile="ture" src="/js/third-party/piao.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js" async></script></body></html>
