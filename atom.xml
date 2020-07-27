@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://ncayu.github.io/"/>
+  <link href="http://www.ncayu.com/"/>
   <updated>2020-07-21T04:24:52.352Z</updated>
-  <id>https://ncayu.github.io/</id>
+  <id>http://www.ncayu.com/</id>
   
   <author>
     <name>ncayu</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>费曼学习法</title>
-    <link href="https://ncayu.github.io/2020/07/21/%E8%B4%B9%E6%9B%BC%E5%AD%A6%E4%B9%A0%E6%B3%95/"/>
-    <id>https://ncayu.github.io/2020/07/21/%E8%B4%B9%E6%9B%BC%E5%AD%A6%E4%B9%A0%E6%B3%95/</id>
+    <link href="http://www.ncayu.com/2020/07/21/%E8%B4%B9%E6%9B%BC%E5%AD%A6%E4%B9%A0%E6%B3%95/"/>
+    <id>http://www.ncayu.com/2020/07/21/%E8%B4%B9%E6%9B%BC%E5%AD%A6%E4%B9%A0%E6%B3%95/</id>
     <published>2020-07-21T04:24:52.352Z</published>
     <updated>2020-07-21T04:24:52.352Z</updated>
     
@@ -41,8 +41,8 @@
   
   <entry>
     <title>搭建个人博客</title>
-    <link href="https://ncayu.github.io/2020/07/21/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    <id>https://ncayu.github.io/2020/07/21/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</id>
+    <link href="http://www.ncayu.com/2020/07/21/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://www.ncayu.com/2020/07/21/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</id>
     <published>2020-07-21T04:23:42.922Z</published>
     <updated>2020-07-21T04:23:42.922Z</updated>
     
@@ -64,8 +64,8 @@
   
   <entry>
     <title>我的第一篇博文</title>
-    <link href="https://ncayu.github.io/2020/07/21/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/"/>
-    <id>https://ncayu.github.io/2020/07/21/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/</id>
+    <link href="http://www.ncayu.com/2020/07/21/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/"/>
+    <id>http://www.ncayu.com/2020/07/21/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/</id>
     <published>2020-07-21T04:19:37.839Z</published>
     <updated>2020-07-21T04:19:37.839Z</updated>
     
